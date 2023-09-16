@@ -10,9 +10,9 @@ import json
 
 # Creating connection with MySQL Workbench
 mydb = sql.connect(
-    host="127.0.0.1",
-    user="root",
-    password="vinudrago@123",
+    host="your_host",
+    user="your_root",
+    password="your_passward",
     database="phonepe_pulse",
     auth_plugin="mysql_native_password"
 )
